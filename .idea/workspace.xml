@@ -1,7 +1,282 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ba751c-e50b-4008-9677-04683b6faaa4" name="Default" comment="" />
+    <list default="true" id="61ba751c-e50b-4008-9677-04683b6faaa4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/resources/keystore.p12" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/resources/sample.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_datastax_cassandra_cassandra_driver_core_3_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_0_33_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_0_33_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_33_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_0_33_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_0_33_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/CustomerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/CustomerServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/BaseConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/IotDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/ThingsboardDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/Authority.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/JWTAuthenticationFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/JWTTokenUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/resources/SSL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/main/resources/static/index.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iot-boot/src/test/java/UUIDConvertTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/fnic/mybatis/iot/dao/TUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/fnic/mybatis/iot/dao/TUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/fnic/mybatis/iot/model/TUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/fnic/mybatis/iot/model/TUserExample.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/bean/ReqData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/bean/RspData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/AdminSettingsMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/AdminSettingsMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/AlarmMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/AlarmMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/AssetMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/AssetMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/AttributeKvMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/AttributeKvMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/ComponentDescriptorMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/ComponentDescriptorMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/CustomerMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/CustomerMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/DashboardMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/DashboardMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/DeviceCredentialsMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/DeviceCredentialsMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/DeviceMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/DeviceMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/EventMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/EventMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/PluginMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/PluginMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/RelationMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/RelationMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/RuleMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/RuleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/TbUserMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/TbUserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/TenantMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/TenantMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/TsKvLatestMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/TsKvLatestMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/TsKvMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/TsKvMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/UserCredentialsMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/dao/UserCredentialsMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AdminSettings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AdminSettingsExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AdminSettingsExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AdminSettingsExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AdminSettingsExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Alarm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AlarmExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AlarmExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AlarmExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AlarmExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Asset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AssetExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AssetExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AssetExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AssetExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AttributeKv.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AttributeKvExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AttributeKvExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AttributeKvExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/AttributeKvExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/ComponentDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/ComponentDescriptorExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/ComponentDescriptorExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/ComponentDescriptorExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/ComponentDescriptorExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Customer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/CustomerExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/CustomerExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/CustomerExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/CustomerExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Dashboard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DashboardExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DashboardExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DashboardExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DashboardExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Device.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DeviceCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DeviceCredentialsExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DeviceCredentialsExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DeviceCredentialsExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DeviceCredentialsExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DeviceExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DeviceExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DeviceExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/DeviceExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Event.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/EventExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/EventExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/EventExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/EventExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Plugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/PluginExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/PluginExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/PluginExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/PluginExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Relation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/RelationExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/RelationExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/RelationExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/RelationExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Rule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/RuleExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/RuleExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/RuleExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/RuleExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TbUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TbUserExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TbUserExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TbUserExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TbUserExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/Tenant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TenantExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TenantExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TenantExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TenantExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKv.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKvExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKvExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKvExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKvExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKvLatest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKvLatestExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKvLatestExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKvLatestExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/TsKvLatestExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/UserCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/UserCredentialsExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/UserCredentialsExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/UserCredentialsExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/mybatis/model/UserCredentialsExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/log.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-generator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/BootApplication.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/BootApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/bean/PageBean.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/bean/PageBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/controller/DeviceController.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/controller/DeviceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/controller/LoginController.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/service/DeviceService.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/service/DeviceService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/service/impl/DeviceServiceImpl.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/service/impl/DeviceServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/config/ConfigSettings.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/config/ConfigSettings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/config/WebSecurityConfig.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/config/WebSecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/security/CustomAuthenticationSuccessHandler.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/security/CustomAuthenticationSuccessHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/security/CustomUserService.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/security/CustomUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/security/CustomUsernamePasswordAuthenticationFilter.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/security/CustomUsernamePasswordAuthenticationFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/utils/UserUtil.class" afterPath="$PROJECT_DIR$/iot-boot/target/classes/com/fnic/sysframe/utils/UserUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/test-classes/TestObject.class" afterPath="$PROJECT_DIR$/iot-boot/target/test-classes/TestObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator/target/mybatis-generator.jar" afterPath="$PROJECT_DIR$/mybatis-generator/target/mybatis-generator.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/iot-boot.iml" afterPath="$PROJECT_DIR$/iot-boot/iot-boot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/pom.xml" afterPath="$PROJECT_DIR$/iot-boot/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/BootApplication.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/BootApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/PageBean.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/PageBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/ReqBean.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/ReqBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/RspBean.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/RspBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/DeviceController.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/DeviceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/LoginController.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/iot/dao/TUserMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/iot/dao/TUserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AdminSettingsMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AdminSettingsMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AdminSettingsMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AdminSettingsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AlarmMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AlarmMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AlarmMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AlarmMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AssetMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AssetMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AssetMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AssetMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AttributeKvMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AttributeKvMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AttributeKvMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AttributeKvMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/ComponentDescriptorMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/ComponentDescriptorMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/ComponentDescriptorMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/ComponentDescriptorMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/CustomerMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/CustomerMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/CustomerMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DashboardMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DashboardMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DashboardMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DashboardMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DeviceCredentialsMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DeviceCredentialsMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DeviceCredentialsMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DeviceCredentialsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DeviceMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DeviceMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DeviceMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/DeviceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/EventMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/EventMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/EventMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/EventMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/PluginMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/PluginMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/PluginMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/PluginMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/RelationMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/RelationMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/RelationMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/RelationMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/RuleMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/RuleMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/RuleMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/RuleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TbUserMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TbUserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TbUserMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TbUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TenantMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TenantMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TenantMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TenantMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TsKvLatestMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TsKvLatestMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TsKvLatestMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TsKvLatestMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TsKvMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TsKvMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TsKvMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/TsKvMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/UserCredentialsMapper.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/UserCredentialsMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/UserCredentialsMapper.xml" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/UserCredentialsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AdminSettings.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AdminSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AdminSettingsExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AdminSettingsExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Alarm.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Alarm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AlarmExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AlarmExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Asset.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Asset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AssetExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AssetExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AttributeKv.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AttributeKv.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AttributeKvExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AttributeKvExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/ComponentDescriptor.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/ComponentDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/ComponentDescriptorExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/ComponentDescriptorExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Customer.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/CustomerExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/CustomerExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Dashboard.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Dashboard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/DashboardExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/DashboardExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Device.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Device.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/DeviceCredentials.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/DeviceCredentials.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/DeviceCredentialsExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/DeviceCredentialsExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/DeviceExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/DeviceExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Event.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/EventExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/EventExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Plugin.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Plugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/PluginExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/PluginExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Relation.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Relation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/RelationExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/RelationExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Rule.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Rule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/RuleExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/RuleExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TbUser.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TbUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TbUserExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TbUserExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Tenant.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/Tenant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TenantExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TenantExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TsKv.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TsKv.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TsKvExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TsKvExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TsKvLatest.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TsKvLatest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TsKvLatestExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/TsKvLatestExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/UserCredentials.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/UserCredentials.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/UserCredentialsExample.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/UserCredentialsExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/DeviceService.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/DeviceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/DeviceServiceImpl.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/DeviceServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/WebSecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomAuthenticationSuccessHandler.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomAuthenticationSuccessHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUserService.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUsernamePasswordAuthenticationFilter.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUsernamePasswordAuthenticationFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/UUIDConverter.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/UUIDConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/UserUtil.java" afterPath="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/UserUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/iot-boot/src/main/resources/application-dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/resources/application-prod.yml" afterPath="$PROJECT_DIR$/iot-boot/src/main/resources/application-prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/iot-boot/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/iot-boot/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/src/test/java/TestObject.java" afterPath="$PROJECT_DIR$/iot-boot/src/test/java/TestObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/application-dev.yml" afterPath="$PROJECT_DIR$/iot-boot/target/classes/application-dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/application-prod.yml" afterPath="$PROJECT_DIR$/iot-boot/target/classes/application-prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/application.properties" afterPath="$PROJECT_DIR$/iot-boot/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iot-boot/target/classes/application.yml" afterPath="$PROJECT_DIR$/iot-boot/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/mybatis-generator/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator/src/main/resources/mybatis_generator.properties" afterPath="$PROJECT_DIR$/mybatis-generator/src/main/resources/mybatis_generator.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator/target/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/mybatis-generator/target/classes/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator/target/classes/mybatis_generator.properties" afterPath="$PROJECT_DIR$/mybatis-generator/target/classes/mybatis_generator.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/mybatis-generator/target/maven-archiver/pom.properties" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/iot-boot/target/" />
@@ -14,37 +289,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DeviceController.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DeviceController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/DeviceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="23" column="54" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="64">
+              <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/DeviceServiceImpl.java">
+      <file leaf-file-name="JWTAuthenticationFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/JWTAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageBean.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/PageBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="645">
+              <caret line="50" column="56" lean-forward="false" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iot-boot/src/test/java/TestObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="160" column="9" lean-forward="false" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4584#4585#0" expanded="true" />
+                <element signature="e#4682#4683#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JWTTokenUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/JWTTokenUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Authority.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/Authority.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-157">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomUsernamePasswordAuthenticationFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUsernamePasswordAuthenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomAuthenticationSuccessHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomAuthenticationSuccessHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +405,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>version</find>
-      <find>package</find>
       <find>targetProject</find>
       <find>securi</find>
       <find>loadUserByUsername</find>
@@ -74,7 +416,26 @@
       <find>oredCriteria</find>
       <find>Criteria</find>
       <find>setCriteria</find>
+      <find>BaseResultMap</find>
+      <find>UUIDConverterTest</find>
+      <find>thingsboardSqlSessionTemplate</find>
+      <find>com.finc.mybatis.thingsboard</find>
+      <find>thingsboard</find>
+      <find>thingsboardDataSource</find>
+      <find>successfulAuthentication</find>
+      <find>UsernamePasswordAuthenticationToken</find>
+      <find>SignatureAlgorithm</find>
+      <find>ConfigSettings</find>
+      <find>@G</find>
+      <find>/login/success&quot;</find>
+      <find>/login/success</find>
+      <find>package</find>
+      <find>onAuthenticationSuccess</find>
+      <find>generateToken</find>
     </findStrings>
+    <replaceStrings>
+      <replace>iot</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,31 +452,53 @@
         <option value="$PROJECT_DIR$/iot-boot/src/main/resources/mybatis_generator.properties" />
         <option value="$PROJECT_DIR$/iot-boot/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator/src/test/java/GenMain.java" />
-        <option value="$PROJECT_DIR$/mybatis-generator/src/main/resources/mybatis_generator.properties" />
         <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/Customer.java" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/TbUser.java" />
         <option value="$PROJECT_DIR$/mybatis-generator/pom.xml" />
-        <option value="$PROJECT_DIR$/iot-boot/pom.xml" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/LoginRequest.java" />
         <option value="$PROJECT_DIR$/iot-boot/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUsernamePasswordAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/BootApplication.java" />
         <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/SysUser.java" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUserService.java" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/DeviceService.java" />
         <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/iot-boot/src/test/java/TestObject.java" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/RspData.java" />
-        <option value="$PROJECT_DIR$/mybatis-generator/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/DeviceController.java" />
         <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/ReqData.java" />
         <option value="$PROJECT_DIR$/mybatis-generator/src/main/java/PaginationPlugin.java" />
-        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/DeviceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/dao/DeviceMapper.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/dao/DeviceMapper.xml" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/RspData.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/Authority.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/RspBean.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/UUIDConverter.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/test/java/UUIDConvertTest.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/mybatis-generator/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatis-generator/src/main/resources/mybatis_generator.properties" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/ThingboardDataSource.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/ThingsboardDataSource.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/BootApplication.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/IotDataSource.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/UserUtil.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUserService.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/ConfigSettings.java" />
         <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/PageBean.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/BaseConstants.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/ReqBean.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/DeviceService.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/DeviceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/DeviceController.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/iot-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUsernamePasswordAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/JWTAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/resources/static/index.json" />
+        <option value="$PROJECT_DIR$/iot-boot/src/test/java/TestObject.java" />
+        <option value="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/JWTTokenUtil.java" />
       </list>
     </option>
   </component>
@@ -162,7 +545,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,73 +597,14 @@
               <item name="iot-boot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot-matser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iot-matser" type="462c0819:PsiDirectoryNode" />
-              <item name="iot-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot-matser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iot-matser" type="462c0819:PsiDirectoryNode" />
-              <item name="iot-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot-matser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iot-matser" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot-matser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iot-matser" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot-matser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iot-matser" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot-matser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iot-matser" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot-matser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iot-matser" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot-matser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iot-matser" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fnic" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,18 +613,23 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mybatis-generator/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fnic.mybatis.thingsboard" />
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fnic.sysframe.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis" />
-      <recent name="$PROJECT_DIR$/iot-boot/src/main/resources" />
       <recent name="$PROJECT_DIR$/iot-boot/src/main/java" />
+      <recent name="$PROJECT_DIR$/iot-boot/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,7 +644,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BootApplication">
+  <component name="RunManager" selected="JUnit.TestObject.TestTime">
     <configuration name="BootApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -346,14 +678,14 @@
       <module name="mybatis-generator" />
       <envs />
     </configuration>
-    <configuration name="TestObject.TestPasswdEncode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestObject.TestTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="iot-boot" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestObject" />
-      <option name="METHOD_NAME" value="TestPasswdEncode" />
+      <option name="METHOD_NAME" value="TestTime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -366,14 +698,34 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestObject.TestRspData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestObject.TestToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="iot-boot" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestObject" />
-      <option name="METHOD_NAME" value="TestRspData" />
+      <option name="METHOD_NAME" value="TestToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UUIDConvertTest.basicUuidToStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="iot-boot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UUIDConvertTest" />
+      <option name="METHOD_NAME" value="basicUuidToStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -466,18 +818,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.BootApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.GenMain" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestObject.TestPasswdEncode" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestObject.TestRspData" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UUIDConvertTest.basicUuidToStringTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GenMain" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestObject.TestToken" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestObject.TestTime" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.BootApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GenMain" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestObject.TestRspData" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestObject.TestPasswdEncode" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestObject.TestTime" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BootApplication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestObject.TestToken" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GenMain" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UUIDConvertTest.basicUuidToStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -500,35 +854,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestObject_TestPasswdEncode - 2018.02.06 at 01h 52m 50s.xml">
-      <configuration name="TestObject.TestPasswdEncode" configurationId="JUnit" />
+    <history-entry file="TestObject_TestTime - 2018.03.16 at 05h 53m 21s.xml">
+      <configuration name="TestObject.TestTime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestObject_TestPasswdEncode - 2018.02.06 at 01h 52m 54s.xml">
-      <configuration name="TestObject.TestPasswdEncode" configurationId="JUnit" />
+    <history-entry file="TestObject_TestToken - 2018.03.16 at 03h 18m 39s.xml">
+      <configuration name="TestObject.TestToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestObject_TestPasswdEncode - 2018.02.06 at 01h 57m 43s.xml">
-      <configuration name="TestObject.TestPasswdEncode" configurationId="JUnit" />
+    <history-entry file="TestObject_TestToken - 2018.03.16 at 03h 19m 52s.xml">
+      <configuration name="TestObject.TestToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestObject_TestRspData - 2018.02.06 at 06h 30m 16s.xml">
-      <configuration name="TestObject.TestRspData" configurationId="JUnit" />
+    <history-entry file="TestObject_TestToken - 2018.03.16 at 03h 20m 17s.xml">
+      <configuration name="TestObject.TestToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestObject_TestRspData - 2018.02.06 at 06h 30m 21s.xml">
-      <configuration name="TestObject.TestRspData" configurationId="JUnit" />
+    <history-entry file="TestObject_TestToken - 2018.03.16 at 03h 21m 58s.xml">
+      <configuration name="TestObject.TestToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestObject_TestRspData - 2018.02.06 at 06h 30m 34s.xml">
-      <configuration name="TestObject.TestRspData" configurationId="JUnit" />
+    <history-entry file="TestObject_TestToken - 2018.03.16 at 03h 22m 32s.xml">
+      <configuration name="TestObject.TestToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestObject_TestRspData - 2018.02.06 at 06h 37m 21s.xml">
-      <configuration name="TestObject.TestRspData" configurationId="JUnit" />
+    <history-entry file="TestObject_TestToken - 2018.03.16 at 03h 30m 05s.xml">
+      <configuration name="TestObject.TestToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestObject_TestRspData - 2018.02.06 at 06h 38m 18s.xml">
-      <configuration name="TestObject.TestRspData" configurationId="JUnit" />
+    <history-entry file="TestObject_TestToken - 2018.03.16 at 03h 30m 55s.xml">
+      <configuration name="TestObject.TestToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestObject_TestRspData - 2018.02.06 at 06h 38m 47s.xml">
-      <configuration name="TestObject.TestRspData" configurationId="JUnit" />
+    <history-entry file="TestObject_TestToken - 2018.03.16 at 05h 33m 40s.xml">
+      <configuration name="TestObject.TestToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestObject_TestRspData - 2018.02.06 at 06h 43m 47s.xml">
-      <configuration name="TestObject.TestRspData" configurationId="JUnit" />
+    <history-entry file="TestObject_TestToken - 2018.03.16 at 05h 35m 23s.xml">
+      <configuration name="TestObject.TestToken" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -536,29 +890,29 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808024" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24985303" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24985303" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808024" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24985303" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24985303" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3982808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -576,18 +930,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iot-boot/src/test/java/TestObject.java</url>
-          <line>26</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/DeviceServiceImpl.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -596,280 +944,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/resources/mybatis_generator.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="441" column="0" lean-forward="false" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AdminSettingsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.1.4.RELEASE/spring-security-core-4.1.4.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.1.4.RELEASE/spring-security-core-4.1.4.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.1.4.RELEASE/spring-security-web-4.1.4.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomAuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.1.4.RELEASE/spring-security-config-4.1.4.RELEASE.jar!/org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="66" column="103" lean-forward="false" selection-start-line="66" selection-start-column="103" selection-end-line="66" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/BootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="186" column="45" lean-forward="false" selection-start-line="186" selection-start-column="45" selection-end-line="186" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/RspData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="112" column="5" lean-forward="false" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
-          <folding>
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2206#2207#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
-            <element signature="e#2412#2413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUsernamePasswordAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/RspData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/test/java/TestObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/java/com/fnic/mybatis/dao/AdminSettingsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="102" column="19" lean-forward="false" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/java/com/fnic/mybatis/dao/AlarmMapper.java">
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/dao/AdminSettingsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/java/com/fnic/mybatis/dao/AdminSettingsMapper.java">
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/thingsboard/model/AdminSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/CustomerExample.java">
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/ThingsboardDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/dao/TsKvMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/TenantExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/AssetExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/dao/ComponentDescriptorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/DeviceCredentials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="300">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/DeviceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/DeviceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4369">
-          <caret line="289" column="28" lean-forward="false" selection-start-line="289" selection-start-column="20" selection-end-line="289" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/ReqData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1186#1187#0" expanded="false" />
+            <element signature="e#1243#1244#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,157 +996,394 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk1.8.0_111/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/dao/AdminSettingsMapper.xml">
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/UserUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1581">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/java/GenMain.java">
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/BootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#619#627#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/java/PaginationPlugin.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0.jar!/io/jsonwebtoken/JwtBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        <state relative-caret-position="131">
+          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/dao/AttributeKvMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0.jar!/io/jsonwebtoken/Jwt.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/TbUserExample.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.1.4.RELEASE/spring-security-web-4.1.4.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="131">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/dao/RuleMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.1.4.RELEASE/spring-security-core-4.1.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/dao/AssetMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.1.4.RELEASE/spring-security-web-4.1.4.RELEASE.jar!/org/springframework/security/web/header/HeaderWriterFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="131">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/UserCredentials.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="131">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/dao/DashboardMapper.java">
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/LoginRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/Rule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/TsKv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/PluginExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/mybatis/model/EventExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/DeviceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="54" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/DeviceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/PageBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/ConfigSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/RspBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/bean/ReqBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="81" column="92" lean-forward="false" selection-start-line="81" selection-start-column="92" selection-end-line="81" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/impl/DeviceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/service/DeviceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/IotDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/BaseConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_111/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="173" column="36" lean-forward="false" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.1.4.RELEASE/spring-security-config-4.1.4.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="109" column="36" lean-forward="false" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.1.4.RELEASE/spring-security-web-4.1.4.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/CustomUsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.1.4.RELEASE/spring-security-web-4.1.4.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/JWTAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="50" column="56" lean-forward="false" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/resources/static/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/test/java/TestObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="160" column="9" lean-forward="false" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4584#4585#0" expanded="true" />
+            <element signature="e#4682#4683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/resources/SSL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/utils/JWTTokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/sysframe/security/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot-boot/src/main/java/com/fnic/controller/DeviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2,8 +2,9 @@ package com.fnic.mybatis.iot.dao;
 
 import com.fnic.mybatis.iot.model.TUser;
 import com.fnic.mybatis.iot.model.TUserExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TUserMapper {
     /**

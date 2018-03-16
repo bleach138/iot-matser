@@ -1,8 +1,8 @@
-package com.fnic.mybatis.dao;
+package com.fnic.mybatis.thingsboard.dao;
 
-import com.fnic.mybatis.model.AttributeKv;
-import com.fnic.mybatis.model.Device;
-import com.fnic.mybatis.model.DeviceExample;
+import com.fnic.mybatis.thingsboard.model.AttributeKv;
+import com.fnic.mybatis.thingsboard.model.Device;
+import com.fnic.mybatis.thingsboard.model.DeviceExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

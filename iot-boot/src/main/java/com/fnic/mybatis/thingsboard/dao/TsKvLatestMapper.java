@@ -1,7 +1,7 @@
-package com.fnic.mybatis.dao;
+package com.fnic.mybatis.thingsboard.dao;
 
-import com.fnic.mybatis.model.TsKvLatest;
-import com.fnic.mybatis.model.TsKvLatestExample;
+import com.fnic.mybatis.thingsboard.model.TsKvLatest;
+import com.fnic.mybatis.thingsboard.model.TsKvLatestExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

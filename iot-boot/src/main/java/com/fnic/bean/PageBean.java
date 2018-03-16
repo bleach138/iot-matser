@@ -1,15 +1,26 @@
 package com.fnic.bean;
 
-import lombok.Getter;
-import lombok.Setter;
-
 public class PageBean {
 
-    @Getter @Setter
     private int pageNum;
 
-    @Getter @Setter
     private int pageSize;
+
+    public int getPageNum() {
+        return pageNum;
+    }
+
+    public void setPageNum(int pageNum) {
+        this.pageNum = pageNum;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
+    }
 
     public int getPageStart() {
         return (pageNum - 1) * pageSize;

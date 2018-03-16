@@ -1,11 +1,11 @@
 package com.fnic.sysframe.security;
 
-import com.fnic.mybatis.dao.TbUserMapper;
-import com.fnic.mybatis.dao.UserCredentialsMapper;
-import com.fnic.mybatis.model.TbUser;
-import com.fnic.mybatis.model.TbUserExample;
-import com.fnic.mybatis.model.UserCredentials;
-import com.fnic.mybatis.model.UserCredentialsExample;
+import com.fnic.mybatis.thingsboard.dao.TbUserMapper;
+import com.fnic.mybatis.thingsboard.dao.UserCredentialsMapper;
+import com.fnic.mybatis.thingsboard.model.TbUser;
+import com.fnic.mybatis.thingsboard.model.TbUserExample;
+import com.fnic.mybatis.thingsboard.model.UserCredentials;
+import com.fnic.mybatis.thingsboard.model.UserCredentialsExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

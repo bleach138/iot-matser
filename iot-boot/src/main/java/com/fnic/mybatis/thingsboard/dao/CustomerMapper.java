@@ -1,7 +1,7 @@
-package com.fnic.mybatis.dao;
+package com.fnic.mybatis.thingsboard.dao;
 
-import com.fnic.mybatis.model.Customer;
-import com.fnic.mybatis.model.CustomerExample;
+import com.fnic.mybatis.thingsboard.model.Customer;
+import com.fnic.mybatis.thingsboard.model.CustomerExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

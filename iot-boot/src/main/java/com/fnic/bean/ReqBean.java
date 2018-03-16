@@ -1,16 +1,26 @@
 package com.fnic.bean;
 
-import lombok.Getter;
-import lombok.Setter;
-
-import java.util.HashMap;
 import java.util.Map;
 
-public class ReqData {
+public class ReqBean {
 
-    @Getter @Setter
     private PageBean pageBean;
 
-    @Getter @Setter
     private Map reqParam;
+
+    public PageBean getPageBean() {
+        return pageBean;
+    }
+
+    public void setPageBean(PageBean pageBean) {
+        this.pageBean = pageBean;
+    }
+
+    public Map getReqParam() {
+        return reqParam;
+    }
+
+    public void setReqParam(Map reqParam) {
+        this.reqParam = reqParam;
+    }
 }

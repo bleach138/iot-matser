@@ -1,4 +1,4 @@
-package com.fnic.mybatis.model;
+package com.fnic.mybatis.thingsboard.model;
 
 public class AttributeKv {
     /**

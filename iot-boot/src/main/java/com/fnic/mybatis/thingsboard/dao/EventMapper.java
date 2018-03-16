@@ -1,7 +1,7 @@
-package com.fnic.mybatis.dao;
+package com.fnic.mybatis.thingsboard.dao;
 
-import com.fnic.mybatis.model.Event;
-import com.fnic.mybatis.model.EventExample;
+import com.fnic.mybatis.thingsboard.model.Event;
+import com.fnic.mybatis.thingsboard.model.EventExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

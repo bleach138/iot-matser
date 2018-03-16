@@ -1,7 +1,7 @@
-package com.fnic.mybatis.dao;
+package com.fnic.mybatis.thingsboard.dao;
 
-import com.fnic.mybatis.model.Tenant;
-import com.fnic.mybatis.model.TenantExample;
+import com.fnic.mybatis.thingsboard.model.Tenant;
+import com.fnic.mybatis.thingsboard.model.TenantExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

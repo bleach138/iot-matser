@@ -1,9 +1,9 @@
 package com.fnic.controller;
 
-import com.fnic.bean.PageBean;
-import com.fnic.bean.ReqData;
-import com.fnic.bean.RspData;
-import com.fnic.mybatis.model.Device;
+import com.fnic.bean.ReqBean;
+import com.fnic.bean.RspBean;
+import com.fnic.mybatis.thingsboard.model.AttributeKv;
+import com.fnic.mybatis.thingsboard.model.Device;
 import com.fnic.service.DeviceService;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping(value = "/device")
@@ -20,11 +21,19 @@ public class DeviceController extends BaseController {
     private DeviceService deviceService;
 
     @RequestMapping(value = "queryDevices")
-    public RspData queryDevices(@RequestBody ReqData reqData) {
-        List<Device> list = deviceService.queryDevicesByTenantId(getUser().getTenantId(),reqData.getPageBean());
+    public RspBean queryDevices(@RequestBody ReqBean reqData) {
+        List<Map<String,Object>> list = deviceService.queryDevicesByCustomerId(reqData.getPageBean());
 
-        RspData rspData = new RspData();
+        RspBean rspData = new RspBean();
         rspData.put("list",list);
+        return rspData;
+    }
+
+    @RequestMapping(value = "queryDeviceInfo")
+    public RspBean queryDeviceInfo(@RequestBody ReqBean reqData) {
+
+        RspBean rspData = new RspBean();
+
         return rspData;
     }
 }

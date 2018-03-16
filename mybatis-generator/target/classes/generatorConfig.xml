@@ -48,7 +48,7 @@
             <property name="enableSubPaGoals:mybatis-generatorckages" value="true"/>
         </javaClientGenerator>
 
-        <!-- 表名对应生成的实体 -->
+        <!-- 表名对应生成的实体
         <table tableName="admin_settings" domainObjectName="AdminSettings"/>
         <table tableName="alarm" domainObjectName="Alarm"/>
         <table tableName="asset" domainObjectName="Asset"/>
@@ -66,7 +66,8 @@
         <table tableName="tenant" domainObjectName="Tenant"/>
         <table tableName="ts_kv" domainObjectName="TsKv"/>
         <table tableName="ts_kv_latest" domainObjectName="TsKvLatest"/>
-        <table tableName="user_credentials" domainObjectName="UserCredentials"/>
+        <table tableName="user_credentials" domainObjectName="UserCredentials"/>-->
+        <table tableName="t_user" domainObjectName="TUser"/>
 
 
 

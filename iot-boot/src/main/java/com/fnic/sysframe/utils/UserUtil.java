@@ -9,6 +9,10 @@ import org.springframework.security.core.context.SecurityContextHolder;
 public class UserUtil {
 
     public static SysUser getUser() {
+
+        System.out.println(SecurityContextHolder.getContext()
+                .getAuthentication()
+                .getPrincipal());
         SysUser userDetails = (SysUser) SecurityContextHolder.getContext()
                 .getAuthentication()
                 .getPrincipal();

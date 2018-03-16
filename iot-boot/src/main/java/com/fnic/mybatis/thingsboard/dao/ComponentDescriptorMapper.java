@@ -1,7 +1,7 @@
-package com.fnic.mybatis.dao;
+package com.fnic.mybatis.thingsboard.dao;
 
-import com.fnic.mybatis.model.ComponentDescriptor;
-import com.fnic.mybatis.model.ComponentDescriptorExample;
+import com.fnic.mybatis.thingsboard.model.ComponentDescriptor;
+import com.fnic.mybatis.thingsboard.model.ComponentDescriptorExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

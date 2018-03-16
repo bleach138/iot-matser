@@ -1,7 +1,7 @@
-package com.fnic.mybatis.dao;
+package com.fnic.mybatis.thingsboard.dao;
 
-import com.fnic.mybatis.model.DeviceCredentials;
-import com.fnic.mybatis.model.DeviceCredentialsExample;
+import com.fnic.mybatis.thingsboard.model.DeviceCredentials;
+import com.fnic.mybatis.thingsboard.model.DeviceCredentialsExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
